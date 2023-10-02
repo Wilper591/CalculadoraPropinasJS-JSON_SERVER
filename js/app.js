@@ -57,7 +57,7 @@ function mostrarSecciones() {
 }
 
 function obtenerPlatillos() {
-    const url = 'http://localhost:4000/platillos';
+    const url = 'https://github.com/Wilper591/CalculadoraPropinasJS-JSON_SERVER/blob/main/db.json';
 
     fetch(url)
         .then(respuesta  => respuesta.json())
